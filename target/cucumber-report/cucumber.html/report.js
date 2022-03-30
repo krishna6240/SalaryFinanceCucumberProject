@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 12820271400,
+  "duration": 7523236500,
   "status": "passed"
 });
 formatter.scenario({
@@ -93,14 +93,14 @@ formatter.match({
   "location": "MyStepdefs.iAmOnHomePage()"
 });
 formatter.result({
-  "duration": 455643099,
+  "duration": 353398799,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iClickOnContactUsButton()"
 });
 formatter.result({
-  "duration": 3690464900,
+  "duration": 2686604700,
   "status": "passed"
 });
 formatter.match({
@@ -113,7 +113,7 @@ formatter.match({
   "location": "MyStepdefs.iEnterFirstName(String)"
 });
 formatter.result({
-  "duration": 403065200,
+  "duration": 508598900,
   "status": "passed"
 });
 formatter.match({
@@ -126,21 +126,21 @@ formatter.match({
   "location": "MyStepdefs.iEnterLastName(String)"
 });
 formatter.result({
-  "duration": 506458500,
+  "duration": 429414699,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iEnterCompanyEmail()"
 });
 formatter.result({
-  "duration": 451716400,
+  "duration": 377412500,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iEnterContactNumber()"
 });
 formatter.result({
-  "duration": 366227700,
+  "duration": 446153300,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +153,7 @@ formatter.match({
   "location": "MyStepdefs.iSelectCountry(String)"
 });
 formatter.result({
-  "duration": 342412700,
+  "duration": 241778399,
   "status": "passed"
 });
 formatter.match({
@@ -166,7 +166,7 @@ formatter.match({
   "location": "MyStepdefs.iEnterCompanyName(String)"
 });
 formatter.result({
-  "duration": 273941300,
+  "duration": 177124100,
   "status": "passed"
 });
 formatter.match({
@@ -179,7 +179,7 @@ formatter.match({
   "location": "MyStepdefs.iSelectAnEmployeeFromDropDown(String)"
 });
 formatter.result({
-  "duration": 286547600,
+  "duration": 355879400,
   "status": "passed"
 });
 formatter.match({
@@ -192,7 +192,7 @@ formatter.match({
   "location": "MyStepdefs.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 500314600,
+  "duration": 343336400,
   "status": "passed"
 });
 formatter.match({
@@ -205,7 +205,7 @@ formatter.match({
   "location": "MyStepdefs.iSelectCompanySize(String)"
 });
 formatter.result({
-  "duration": 425742000,
+  "duration": 231197599,
   "status": "passed"
 });
 formatter.match({
@@ -218,18 +218,18 @@ formatter.match({
   "location": "MyStepdefs.iEnterMassage(String)"
 });
 formatter.result({
-  "duration": 516172900,
+  "duration": 533628899,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iClickOnSubmitButton()"
 });
 formatter.result({
-  "duration": 437654299,
+  "duration": 435360100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 135599,
+  "duration": 578700,
   "status": "passed"
 });
 });

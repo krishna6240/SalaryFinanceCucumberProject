@@ -3,6 +3,7 @@ package com.salaryfinance.pages;
 import com.salaryfinance.utility.Utility;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -56,42 +57,55 @@ public class HomePage extends Utility {
     @FindBy(xpath = "(//section[contains(@class,'contact-form')])[1]")
     WebElement submit;
     public void clickOnAcceptcookies(){
+        log.info("clicking on button : " + acceptCookies.toString());
         pmClickOnElement(acceptCookies);
     }
     public void clickOnContactUs(){
+        log.info("clicking on button : " + contactUs.toString());
         pmClickOnElement(contactUs);
     }
     public void enterFirstName(String name){
+        log.info("Enter name : " + firstname.toString());
         sendTextToElement(firstname,name);
     }
     public void enterLastname(String name){
+        log.info("Enter name : " + lastname.toString());
         sendTextToElement(lastname,name);
     }
-    public void enterComapnyEmail(String email){
+    public void enterCompanyEmail(String email){
+        log.info("enter company Email: " + companyemail.toString());
         sendTextToElement(companyemail,email);
     }
     public void enterContactNumber(String number){
+        log.info("enter company Number : " + contactNumber.toString());
         sendTextToElement(contactNumber,number);
     }
     public void selectCountry(String name){
+        log.info("select Country : " + Country.toString());
         pmSelectByValueFromDropDown(Country,name);
     }
     public void enterCompanyName(String name){
+        log.info("enter CompanyName : " + CompanyName.toString());
         sendTextToElement(CompanyName,name);
     }
     public void selectEmployee(String name){
+        log.info("Select Employee : " + employee.toString());
         pmSelectByValueFromDropDown(employee,name);
     }
     public void enterJobTitle(String text){
+        log.info("enter Job Title : " + jobtitle.toString());
         sendTextToElement(jobtitle,text);
     }
     public void selectCompanySize(String size){
+        log.info("select Company Size : " + CompanySize.toString());
         pmSelectByValueFromDropDown(CompanySize,size);
     }
     public void enterMessage(String text){
+        log.info("Enter Massage : " + massage.toString());
         pmSendTextToElement(massage,text);
     }
     public void clickOnsubmitBtn(){
+        log.info("clicking on button : " + submit.toString());
         clickOnElement(submit);
     }
 

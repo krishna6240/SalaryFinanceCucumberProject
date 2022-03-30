@@ -36,7 +36,7 @@ public class MyStepdefs {
 
     @And("^I enter Company Email$")
     public void iEnterCompanyEmail() {
-        new HomePage().enterCompanyName(EmailAddress);
+        new HomePage().enterCompanyEmail(EmailAddress);
     }
 
     @And("^I enter Contact Number$")
